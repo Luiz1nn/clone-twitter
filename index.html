@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/font-awsome/css/all.css">
+        <link rel="shortcut icon" href="./assets/img/bird 1.svg">
+        <title>Bem-Te-Vi</title>
+    </head>
+
+    <body>
+
+        <input type="checkbox" id="darkmode">
+        <main>
+            <div class="container">
+
+                <header class="cabecalho">
+
+                    <figure class="cabecalho_logo">
+                        <img src="./assets/img/bird 1.svg" alt="Logo">
+                        <figcaption>Logo</figcaption>
+                    </figure>
+
+                    <nav class="cabecalho_menuNavegacao">
+
+                        <ul class="cabecalho_menuLista">
+
+                            <li class="cabecalho_menuItem">
+                                <img src="assets/img/Profile Pic.png" alt="Perfil">
+                                <a style="position: relative; top: 10px;" href="">Perfil</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-home"></i>
+                                <a href="">Página Inicial</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-hashtag"></i>
+                                <a href="">Explorar</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-bell"></i>
+                                <a href="">Notificações</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg far fa-envelope"></i>
+                                <a href="">Mensagens</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-bookmark"></i>
+                                <a href="">Itens Salvos</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-list-alt"></i>
+                                <a href="">Listas</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem">
+                                <i class="fa-lg fas fa-ellipsis-h"></i>
+                                <a href="">Mais</a>
+                            </li>
+
+                            <li class="cabecalho_menuItem dark">
+                                <i class="fa-lg fas fa-toggle-off"></i>
+                                <label for="darkmode" class="darkmodeLabel">Modo Escuro</label>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </header>
+
+                <main class="conteudoPrincipal">
+                    <h3 class="conteudoPrincipal_titulo">Home</h3>
+
+                    <form action="#" class="conteudoPrincipal_formulario">
+                        <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+                        <button type="submit">Tweetar</button>
+                    </form>
+
+                    <section class="conteudoPrincipal_feed">
+
+                        <ul class="conteudoPrincipal_listaTweets">
+
+                            <li class="conteudoPrincipal_tweet">
+                                <img class="tweet_fotoPerfil" src="./assets/img/Profile Pic (3).png" alt="Deboche">
+                                <div class="tweet_conteudo">
+                                    <h2>Sincero Oficial</h2>
+                                    <span>@sinceroofc 14s</span>
+                                    <p>Eu tenho vocação demais pra ser rico, só falta Deus acreditar no meu potencial e me dar uma oportunidade</p>
+                                </div>
+
+                            </li>
+
+                            <li class="conteudoPrincipal_tweet">
+                                <img class="tweet_fotoPerfil" src="./assets/img/Profile Pic (2).png" alt="">
+                                <div class="tweet_conteudo">
+                                    <h2>Eu sou Deboche</h2>
+                                    <span>@eusoudeboche 14s</span>
+                                    <p>Olhei a fatura do cartão e acho que em algum momento do mês eu achei que tinha ganhado na Mega-Sena</p>
+                                </div>
+                            </li>
+
+                            <li class="conteudoPrincipal_tweet">
+                                <img class="tweet_fotoPerfil" src="./assets/img/Profile Pic.png" alt="Luis">
+                                <div class="tweet_conteudo">
+                                    <h2>Luis</h2>
+                                    <span>@luizinn 14s</span>
+                                    <p>bom dia amigos bebam água</p>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </section>
+
+                </main>
+
+            </div>
+        
+            <script src="assets/jquery-3.6.0.min.js" type="text/javascript"></script>
+            <script src="./assets/js/script.js" type="text/javascript"></script>
+            <script src="assets/font-awsome/js/all.js" type="text/javascript"></script>
+        </main>
+    </body>
+</html>
