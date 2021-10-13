@@ -1,8 +1,8 @@
-<h1 align="center">Bem-te-vi</h1>
+<h1>Bem-te-vi</h1>
 
 <p>Um pequeno clone do Twitter</p>
 
-<h4 align="center"> 🚧 Em produção... 🚀 </h4>
+<h4> 🚧 Em produção... 🚀 </h4>
 
 # Ferramentas usadas
 
